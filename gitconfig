@@ -1,0 +1,18 @@
+[color]
+	ui = auto
+[user]
+	email = mittals@codeaurora.org
+	name = Shashank Mittal
+[url "git://git.quicinc.com/"]
+	insteadOf = git://git-android.quicinc.com/
+[url "git://git.quicinc.com/tools/repo.git"]
+	insteadOf = git://android.git.kernel.org/tools/repo.git
+[url "ssh://git-rtp-qserver.qualcomm.com:29418/"]
+	insteadOf = git://git-rtp-qserver.qualcomm.com/
+	insteadOf = git://review-qserver.qualcomm.com/
+[core]
+	editor = vim
+	filemode = false
+	excludesfile = /usr2/mittals/.gitignore_global
+[init]
+	templatedir = ~/.git_template
